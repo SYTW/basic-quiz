@@ -7,9 +7,10 @@
 </head>
 <body>
   <h2>Quiz: El juego de las preguntas</h2>
-  <form action="/quizes/answer" method="get">
-   Pregunta: <%= pregunta %> <p>
-   <input type="text" name="respuesta" autofocus/>
+  <form action="/quizes/answer" method="post">
+   Pregunta: <%- pregunta %> <p>
+   <textarea rows="4" cols="50" name="respuesta" autofocus>
+   </textarea>
    <input type="submit" value="Enviar" />
   </form>
 </body>

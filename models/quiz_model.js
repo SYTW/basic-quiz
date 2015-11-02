@@ -14,9 +14,24 @@ function Quiz() {
         if ((/\bIsabel\b/i).exec(x) && (/\bFernando\b/i).exec(x)) { return true; }
         if ((/\breyes\s+cat[oó]licos\b/i).exec(x)) { return true; }
         return false;
+      },
+    },
+    {
+      pregunta: 'Escriba una función JavaScript de nombre <tt>square</tt> '+
+      'que recibe un número y devuelve el cuadrado',
+      respuesta: function(x) {
+        try {
+          eval(x);
+          return (square(3) == 9) && (square(5) == 25);
+        }
+        catch(e) {
+          return false;
+        }
+        return false;
       }
     }
   );
+  /*
   // insertar unas cuantas preguntas sobre
   // la tabla de multiplicar
   var self  = this;
@@ -27,7 +42,7 @@ function Quiz() {
       var n2 = Math.randomInt(9)+1;
       debug("n2 = "+n2);
       self.q.push(
-        { pregunta: n1+'x'+n2+"=",
+        { pregunta: '¿ '+n1+'x'+n2+"= ?",
           respuesta: function(x) {
             debug("n1 = "+n1);
             debug("n2 = "+n2);
@@ -36,6 +51,7 @@ function Quiz() {
       })
     })();
   }
+  */
   debug(this.q);
 }
 

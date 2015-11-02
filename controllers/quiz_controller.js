@@ -15,7 +15,8 @@ exports.question = function(req,res) {
 
 exports.answer = function(req, res) {
   var c = 'incorrecto';
-  debug("current.respuesta(req.query.respuesta) = "+current.respuesta(req.query.respuesta));
-  if (current.respuesta(req.query.respuesta)) { c = 'correcto'; }
+  debug(req.query);
+  debug("current.respuesta(req.body.respuesta) = "+current.respuesta(req.body.respuesta));
+  if (current.respuesta(req.body.respuesta)) { c = 'correcto'; }
   res.render('quizes/answer', {respuesta: c})
 };
