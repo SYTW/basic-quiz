@@ -1,5 +1,5 @@
 var express = require('express');
-debug = require('debug')('coffeepress:server');
+debug = require('debug')('quiz:server');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');

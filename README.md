@@ -15,4 +15,5 @@
 
                       $ DEBUG=http,mail,express:* node index.js
 <br/>
-*  otro
+*  Cambiamos la página inicial
+* Añadimos el favicon
