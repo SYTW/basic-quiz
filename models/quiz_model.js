@@ -11,19 +11,22 @@ function Quiz() {
     {
       pregunta: '¿Quien reinaba en España cuando se descubrió América?',
       respuesta: function(x) {
-        if ((/\bIsabel\b/i).exec(x) && (/\bFernando\b/i).exec(x)) { return true; }
+        if ((/\b(Isabel\s+y?\s*Fernando)|(Fernando\s+[ey]?\s*Isabel)\b/i).exec(x)) {
+          return true;
+        }
         if ((/\breyes\s+cat[oó]licos\b/i).exec(x)) { return true; }
         return false;
-      },
+      }
     },
-    { /* Código inseguro. ¡No ejecute esta pregunta salvo en un
-         entorno en el que el código del "alumno" sea fiable!
-       */
+    /* Código inseguro. ¡No ejecute esta pregunta salvo en un
+       entorno en el que el código del "alumno" sea fiable!
+     */
+    {
       pregunta: 'Escriba una función JavaScript de nombre <tt>square</tt> '+
       'que recibe un número y devuelve el cuadrado',
       respuesta: function(x) {
         try {
-          eval(x); /* DANGER DANGER DANGER */
+          eval(x); // DANGER DANGER DANGER
           var z = Math.floor(Math.random()*100);
           return (square(z) == z*z);
         }
@@ -34,7 +37,6 @@ function Quiz() {
       }
     }
   );
-  /*
   // insertar unas cuantas preguntas sobre
   // la tabla de multiplicar
   var self  = this;
@@ -54,7 +56,6 @@ function Quiz() {
       })
     })();
   }
-  */
   debug(this.q);
 }
 
