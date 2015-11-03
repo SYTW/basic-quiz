@@ -3,10 +3,13 @@
 * [Módulo VI: El proyecto Quiz y MVC](https://github.com/crguezl/miriada-upm-dsnh5jsnode#módulo-vi-el-proyecto-quiz-y-mvc) Videos
 * [Módulo VI: El proyecto Quiz y MVC](https://github.com/crguezl/miriada-upm-dsnh5jsnode/blob/master/traspas/transp_modulo6.pdf) Trasparencias en PDF
 * [Repo crguezl/miriada-upm-dsnh5jsnode](https://github.com/crguezl/miriada-upm-dsnh5jsnode)
+* [Curso MOOC Node.JS: El Proyecto Quiz y MVC](https://youtu.be/HSuOf0204HM)
 
 ## Esqueleto
 * Se genera el esqueleto con [express-generator](http://expressjs.com/starter/generator.html)
 * Añadimos `gulpfile.js`
+* [Curso MOOC Node.JS: Esqueleto del proyecto con express-generador](https://youtu.be/CxtSbqZ07go)
+* [Curso MOOC Node.JS: Quiz 1B. Esqueleto del proyecto](https://youtu.be/4Rcgd08QQJs)
 
 ## Ejecución
 
@@ -31,7 +34,14 @@
 
 ## Cambiamos la página inicial
 
+* [Curso MOOC Node.JS: Quiz 2. Primera página y favicon](https://youtu.be/LG7xOeF0UNQ)
+
+* [Curso MOOC Node.JS: Quiz 3. Primera pregunta](https://youtu.be/DnylqFbaS1g)
+
 ## Añadimos el favicon
+
+* [Curso MOOC Node.JS: Quiz 2. Primera página y favicon](https://youtu.be/LG7xOeF0UNQ)
+
 
 ###  Refresh favicon the simple way
 
@@ -46,9 +56,23 @@ I found a very simple way to update the favicon that works in FireFox, Internet 
 
 ## Primera pregunta
 
+* [Curso MOOC Node.JS: Quiz 3. Primera pregunta](https://youtu.be/DnylqFbaS1g)
+
 ## Muchas preguntas (Modelo basado en una clase. Sin base de datos)
 Esta parte no se documenta en los vídeos y trasparencias.
 Véase el directorio `models`y los fichero `quiz_model.js` y
 `abstract_quiz_model.js`
 
+* [quiz_model.js](https://github.com/crguezl/basic-quiz/blob/master/models/quiz_model.js)
+* [abstract_quiz_model](https://github.com/crguezl/basic-quiz/blob/master/models/abstract_quiz_model.js)
+
 ## Añadimos Layouts
+
+* [Curso MOOC Node.JS: Quiz 4. Marco de la aplicación](https://youtu.be/oSTXsqSoLTc)
+
+## Despliegue en [iaas.ull.es](iaas.ull.es)
+
+## No se incluyen en esta práctica:
+
+* [Curso MOOC Node.JS: Quiz 5. CSS adaptable a móviles](https://youtu.be/fFvFm9WXcI0)
+* [Curso MOOC Node.JS: Quiz 6: Despliegue en Heroku](https://youtu.be/pHrxmgE1-eM)
