@@ -4,3 +4,6 @@ m4express
 coffeepress
 README.html
 node-js-getting-started
+npm-debug.log
+.DS_Store
+/*.env
