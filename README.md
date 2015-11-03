@@ -13,7 +13,9 @@
 
 ## Ejecución
 
-* Usamos [nodemon](http://nodemon.io/) para ejecutar nuestra aplicación. Read the [full documentation](http://github.com/remy/nodemon#nodemon).
+* Usamos [nodemon](http://nodemon.io/) para ejecutar nuestra aplicación en fase de desarrollo. Read the [full documentation](http://github.com/remy/nodemon#nodemon).
+
+En fase de producción usamos `node`.
 
 ## Depuración
 
@@ -41,7 +43,7 @@
 * [Curso MOOC Node.JS: Quiz 2. Primera página y favicon](https://youtu.be/LG7xOeF0UNQ)
 
 
-###  Refresh favicon the simple way
+###  Nota: Refresh favicon the simple way
 
 See [http://www.phpjunkyard.com/tutorials/force-favicon-refresh.php](http://www.phpjunkyard.com/tutorials/force-favicon-refresh.php):
 

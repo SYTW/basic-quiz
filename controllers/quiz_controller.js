@@ -14,9 +14,9 @@ exports.question = function(req,res) {
 };
 
 exports.answer = function(req, res) {
-  var c = 'incorrecto';
+  var c = 'Incorrecto';
   debug(req.query);
   debug("current.respuesta(req.body.respuesta) = "+current.respuesta(req.body.respuesta));
-  if (current.respuesta(req.body.respuesta)) { c = 'correcto'; }
+  if (current.respuesta(req.body.respuesta)) { c = 'Correcto'; }
   res.render('quizes/answer', {respuesta: c})
 };
