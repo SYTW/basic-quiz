@@ -58,7 +58,7 @@ I found a very simple way to update the favicon that works in FireFox, Internet 
 
 ## Muchas preguntas (Modelo basado en una clase. Sin base de datos)
 Esta parte no se documenta en los vídeos y trasparencias.
-Véase el directorio `models`y los fichero `quiz_model.js` y
+Véase el directorio `models`y los ficheros `quiz_model.js` y
 `abstract_quiz_model.js`
 
 * [quiz_model.js](https://github.com/crguezl/basic-quiz/blob/master/models/quiz_model.js)
@@ -67,6 +67,7 @@ Véase el directorio `models`y los fichero `quiz_model.js` y
 ## Añadimos Layouts
 
 * [Curso MOOC Node.JS: Quiz 4. Marco de la aplicación](https://youtu.be/oSTXsqSoLTc)
+* [express-partials](https://github.com/publicclass/express-partials)
 
 ## Despliegue en [iaas.ull.es](iaas.ull.es)
 
