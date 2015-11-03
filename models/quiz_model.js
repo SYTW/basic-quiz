@@ -16,12 +16,14 @@ function Quiz() {
         return false;
       },
     },
-    {
+    { /* Código inseguro. ¡No ejecute esta pregunta salvo en un
+         entorno en el que el código del "alumno" sea fiable!
+       */
       pregunta: 'Escriba una función JavaScript de nombre <tt>square</tt> '+
       'que recibe un número y devuelve el cuadrado',
       respuesta: function(x) {
         try {
-          eval(x);
+          eval(x); /* DANGER DANGER DANGER */
           var z = Math.floor(Math.random()*100);
           return (square(z) == z*z);
         }
