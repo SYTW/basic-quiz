@@ -20,7 +20,7 @@
     "express-partials": "~0.3.0"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "0.10.24"
   },
   "repository": {
     "type": "git",
