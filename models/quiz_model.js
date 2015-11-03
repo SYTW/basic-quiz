@@ -22,7 +22,8 @@ function Quiz() {
       respuesta: function(x) {
         try {
           eval(x);
-          return (square(3) == 9) && (square(5) == 25);
+          var z = Math.floor(Math.random()*100);
+          return (square(z) == z*z);
         }
         catch(e) {
           return false;
