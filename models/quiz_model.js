@@ -15,7 +15,7 @@ function Quiz() {
         if ((/\breyes\s+cat[oó]licos\b/i).exec(x)) { return true; }
         return false;
       },
-    },
+    }//,
     // { /* Código inseguro. ¡No ejecute esta pregunta salvo en un
     //      entorno en el que el código del "alumno" sea fiable!
     //    */
