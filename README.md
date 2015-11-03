@@ -75,7 +75,12 @@ Véase el directorio `models`y los ficheros `quiz_model.js` y
 
 * Véase el repo [SYTW/iaas.ull.es](https://github.com/SYTW/iaas-ull-es)
 
+## Despliegue en Heroku
+
+* [Curso MOOC Node.JS: Quiz 6: Despliegue en Heroku](https://youtu.be/pHrxmgE1-eM)
+* Tuve problemas en Heroku con los `require`que no encontraban los módulos.
+  Resuelto con `heroku config:set NODE_PATH=":."`
+
 ## No se incluyen en esta práctica los siguientes requisitos:
 
 * [Curso MOOC Node.JS: Quiz 5. CSS adaptable a móviles](https://youtu.be/fFvFm9WXcI0)
-* [Curso MOOC Node.JS: Quiz 6: Despliegue en Heroku](https://youtu.be/pHrxmgE1-eM)

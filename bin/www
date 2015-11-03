@@ -4,6 +4,7 @@
  * Module dependencies.
  */
 
+process.env.NODE_PATH = ":."; // bug en Heroku
 var app = require('../app');
 var debug = require('debug')('quiz:server');
 var http = require('http');

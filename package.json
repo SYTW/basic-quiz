@@ -1,6 +1,8 @@
 {
   "name": "quiz",
   "version": "0.0.0",
+  "description": "A example of how to use Express 4",
+  "main": "./bin/www",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
@@ -16,5 +18,18 @@
     "serve-favicon": "~2.2.0",
     "gulp-shell": "~0.5.1",
     "express-partials": "~0.3.0"
-  }
+  },
+  "engines": {
+    "node": "0.10.24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SYTW/basic-quiz.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
