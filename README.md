@@ -47,5 +47,8 @@ I found a very simple way to update the favicon that works in FireFox, Internet 
 ## Primera pregunta
 
 ## Muchas preguntas (Modelo basado en una clase. Sin base de datos)
+Esta parte no se documenta en los vídeos y trasparencias.
+Véase el directorio `models`y los fichero `quiz_model.js` y
+`abstract_quiz_model.js`
 
 ## Añadimos Layouts
