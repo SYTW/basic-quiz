@@ -71,7 +71,9 @@ Véase el directorio `models`y los ficheros `quiz_model.js` y
 
 ## Despliegue en [iaas.ull.es](iaas.ull.es)
 
-## No se incluyen en esta práctica:
+* Véase el repo [SYTW/iaas.ull.es](https://github.com/SYTW/iaas-ull-es)
+
+## No se incluyen en esta práctica los siguientes requisitos:
 
 * [Curso MOOC Node.JS: Quiz 5. CSS adaptable a móviles](https://youtu.be/fFvFm9WXcI0)
 * [Curso MOOC Node.JS: Quiz 6: Despliegue en Heroku](https://youtu.be/pHrxmgE1-eM)
