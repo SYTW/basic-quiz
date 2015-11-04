@@ -54,11 +54,12 @@ I found a very simple way to update the favicon that works in FireFox, Internet 
 * Refresh the favico.ico URL by pressing F5 or the appropriate browser Refresh (Reload) button
 * Close the browser and open your website - voila, your favicon has been updated!
 
-## Primera pregunta
+## Primera pregunta. Controlador y Nuevas Vistas
 
 * [Curso MOOC Node.JS: Quiz 3. Primera pregunta](https://youtu.be/DnylqFbaS1g)
 
-## Muchas preguntas (Modelo basado en una clase. Sin base de datos)
+## Muchas preguntas. El Modelo. Modelo basado en una clase JavaScript. Sin base de datos
+
 Esta parte no se documenta en los vídeos y trasparencias.
 Véase el directorio `models`y los ficheros `quiz_model.js` y
 `abstract_quiz_model.js`
