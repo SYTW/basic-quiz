@@ -17,24 +17,24 @@ function Quiz() {
         if ((/\breyes\s+cat[oó]licos\b/i).exec(x)) { return true; }
         return false;
       },
-    }//,
-    // { /* Código inseguro. ¡No ejecute esta pregunta salvo en un
-    //      entorno en el que el código del "alumno" sea fiable!
-    //    */
-    //   pregunta: 'Escriba una función JavaScript de nombre <tt>square</tt> '+
-    //   'que recibe un número y devuelve el cuadrado',
-    //   respuesta: function(x) {
-    //     try {
-    //       eval(x); /* DANGER DANGER DANGER */
-    //       var z = Math.floor(Math.random()*100);
-    //       return (square(z) == z*z);
-    //     }
-    //     catch(e) {
-    //       return false;
-    //     }
-    //     return false;
-    //   }
-    // }
+    },
+    { /* Código inseguro. ¡No ejecute esta pregunta salvo en un
+         entorno en el que el código del "alumno" sea fiable!
+       */
+      pregunta: 'Escriba una función JavaScript de nombre <tt>square</tt> '+
+      'que recibe un número y devuelve el cuadrado',
+      respuesta: function(x) {
+        try {
+          eval(x); /* DANGER DANGER DANGER */
+          var z = Math.floor(Math.random()*100);
+          return (square(z) == z*z);
+        }
+        catch(e) {
+          return false;
+        }
+        return false;
+      }
+    }
   );
   // insertar unas cuantas preguntas sobre
   // la tabla de multiplicar
