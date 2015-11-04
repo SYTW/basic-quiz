@@ -79,8 +79,9 @@ Véase el directorio `models`y los ficheros `quiz_model.js` y
 ## Despliegue en Heroku
 
 * [Curso MOOC Node.JS: Quiz 6: Despliegue en Heroku](https://youtu.be/pHrxmgE1-eM)
-* El tutorial [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app) del propio Heroku
-* Tuve problemas en Heroku con los `require`que no encontraban los módulos.
+* [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app) del propio Heroku
+* Tutorial de Heroku: [Deploying with Git](https://devcenter.heroku.com/articles/git#deploying-code) (Genérico)
+* Tuve problemas en Heroku con los `require` que no encontraban los módulos.
   Resuelto con `heroku config:set NODE_PATH=":."`
   Véase [Setting up config vars for a deployed application](https://devcenter.heroku.com/articles/config-vars#setting-up-config-vars-for-a-deployed-application)
 * Si la aplicación no funciona en Heroku  vale la pena leer
