@@ -96,3 +96,11 @@ o usar `curl` en modo verbose para ver detalles de la comunicación cliente-serv
 ## No se incluyen en esta práctica:
 
 * [Curso MOOC Node.JS: Quiz 5. CSS adaptable a móviles](https://youtu.be/fFvFm9WXcI0)
+
+## Ramas
+
+* `master` : todo
+* `favicon` : Se corresponde con la sección "Quiz 2: Primera página y favicon"
+* `primeraspreguntas` : Se introducen las preguntas
+* `layouts` : Se introducen los layouts
+* `heroku` : lista para desplegar en Heroku
