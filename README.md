@@ -91,7 +91,8 @@ Véase el directorio `models`y los ficheros `quiz_model.js` y
                         heroku logs --tail
                         heroku restart
 o usar `curl` en modo verbose para ver detalles de la comunicación cliente-servidor:
-                         curl -v http://example.herokuapp.com/                        
+
+                           curl -v http://example.herokuapp.com/                        
 ## No se incluyen en esta práctica:
 
 * [Curso MOOC Node.JS: Quiz 5. CSS adaptable a móviles](https://youtu.be/fFvFm9WXcI0)
