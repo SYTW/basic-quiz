@@ -1,7 +1,7 @@
 {
   "name": "quiz",
-  "version": "0.0.0",
-  "description": "A example of how to use Express 4",
+  "version": "0.0.1",
+  "description": "A web app to elaborate Quizzes",
   "main": "./bin/www",
   "private": true,
   "scripts": {
