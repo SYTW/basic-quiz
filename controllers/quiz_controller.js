@@ -1,9 +1,6 @@
 var Quiz = require('../models/quiz_model');
 
 var quiz = new Quiz();
-var cq = quiz.randomQuestion();
-var current = cq.question;
-var index = cq.index;
 
 exports.index = function(req, res, next) {
   debug("en index.js: visitando '/'");
@@ -11,9 +8,9 @@ exports.index = function(req, res, next) {
 };
 
 exports.question = function(req,res) {
-  cq = quiz.randomQuestion();
-  current = cq.question;
-  index = cq.index;
+  var cq = quiz.randomQuestion();
+  var current = cq.question;
+  var index = cq.index;
   res.render('quizes/question', {pregunta: current.pregunta, index: index});
 };
 
