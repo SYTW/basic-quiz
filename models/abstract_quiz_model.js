@@ -9,6 +9,10 @@ function AbstractQuiz(q) {
 
 AbstractQuiz.prototype.randomQuestion = function() {
     var index = Math.randomInt(this.q.length);
+    return {index : index, question: this.q[index]};
+}
+
+AbstractQuiz.prototype.getQuestion = function(index) {
     return this.q[index];
 }
 

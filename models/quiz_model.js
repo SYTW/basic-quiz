@@ -1,4 +1,4 @@
-var AbstractQuiz = require('models/abstract_quiz_model.js');
+var AbstractQuiz = require('../models/abstract_quiz_model.js');
 
 function Quiz() {
   AbstractQuiz.call(this);
@@ -17,6 +17,15 @@ function Quiz() {
         if ((/\breyes\s+cat[oó]licos\b/i).exec(x)) { return true; }
         return false;
       },
+    },
+    { /* pregunta multiple */
+      pregunta: '¿En que año se  descubrió América?<br/>. Indique el nº de la respuesta correcta.'+
+                '<ol>'+
+                '<li>1942</li>'+
+                '<li>1492</li>'+
+                '<li>1249</li>'+
+                '</ol>',
+      respuesta: function(x) { return x == 2; }
     },
     { /* Código inseguro. ¡No ejecute esta pregunta salvo en un
          entorno en el que el código del "alumno" sea fiable!
